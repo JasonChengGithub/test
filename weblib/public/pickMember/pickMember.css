@@ -1,0 +1,38 @@
+.pickMember {
+    min-height: 35px;
+    border: solid 1px #ddd;
+    padding-bottom: 5px;
+    position: relative;
+    padding-right:40px; 
+}
+.pickMember .pickMemberAdd{
+    position: absolute;
+    width: 30px;
+    background: url(add.png) no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    border: 0 none;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.pickMember .pickMemberItem {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #0099FF;
+}
+.pickMember .pickMemberItem .remove {
+    cursor: pointer;
+}
+.pickMember .memberItem {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-bottom: dashed 1px #ddd;
+}
+.pickMember .memberItem input{margin-right:5px;}

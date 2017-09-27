@@ -1,0 +1,96 @@
+/*hui自定义*/
+.tabBar{
+    border-bottom: 1px solid #0099FF;
+}
+.tabBar span.current{
+    background-color: #0099FF;
+}
+.tabBar span{
+    background-color:transparent;
+    font-weight:normal;
+}
+.tabCon{
+    padding-top:10px;
+}
+.btn-primary{
+    background-color: #0099FF;
+    border-color: #0099FF;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active{
+    background-color: #5a98de;
+    border-color: #5a98de;
+}
+.form-horizontal .form-label {
+     margin-top: 0px; 
+}
+.dropDown_A{
+    color: #0099FF;
+}
+.select:disabled,.input-text:disabled,.textarea:disabled{
+   background-color: rgb(235, 235, 228);
+}
+.select-box .select{
+    padding:0px;
+}
+.select{
+    padding:4px;
+}
+/*pagination自定义*/
+.m-pagination-page, .m-pagination-info, .m-pagination-size, .m-pagination-jump{
+    margin-top:0;
+}
+.m-pagination-page > li > a {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    color:#0099FF;
+    }
+.m-pagination-page > li > a, .m-pagination-size > select, .m-pagination-group > input, .m-pagination-group > button, .m-pagination-info{
+    font-size: 14px;
+}
+.m-pagination-size > select {
+    height: 27px;
+    }
+.m-pagination-group > input {
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+}
+.m-pagination-group > button {
+    height: 27px;
+        padding: 0px 7px;
+    }
+    .m-pagination-info {
+    height: 27px;
+    line-height: 28px;
+}
+.m-pagination-page > li.active > a{
+    background-color: #0099FF;
+    border-color: #0099FF;
+}
+.m-pagination-jump{
+    padding-right: 0;
+}
+.m-pagination-page > li:first-child > a,.m-pagination-page > li:last-child > a ,.m-pagination-size > select,.m-pagination-group > input,.m-pagination-group > button{
+    border-radius: 0px; 
+}
+/*公共*/
+.pl-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.form-label{
+    line-height: 27px;
+    white-space: nowrap ;
+    text-align: right;
+    padding-left: 5px;
+    padding-right:5px;
+}
+.from-table td{
+    white-space: nowrap ;
+    padding-bottom: 10px; 
+}
+
+
+
+

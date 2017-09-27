@@ -1,0 +1,38 @@
+.pickTree {
+    min-height: 35px;
+    border: solid 1px #ddd;
+    padding-bottom: 5px;
+    position: relative;
+    padding-right:40px; 
+}
+.pickTree .pickTreeAdd{
+    position: absolute;
+    width: 30px;
+    background: url(add.png) no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    border: 0 none;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.pickTree .pickTreeItem {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #0099FF;
+}
+.pickTree .pickTreeItem .remove {
+    cursor: pointer;
+}
+.pickTree .memberItem {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border-bottom: dashed 1px #ddd;
+}
+.pickTree .memberItem input{margin-right:5px;}
